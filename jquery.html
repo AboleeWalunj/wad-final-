@@ -1,0 +1,44 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="one">
+<div data-role="header">
+<h1>Welcome</h1>
+</div>
+<div data-role="content">
+<p>sakshi patil</p>
+<a href="#two" data-role="button">registration here</a>
+</div>
+<a href="#popupBasic" data-rel="popup">Note</a>
+<div data-role="popup" id="popupBasic">
+<p>all registration completed</p>
+</div>
+
+<div data-role="footer">
+<h3>Thank you</h3>
+</div>
+</div>
+
+<div data-role="page" id="two">
+<div data-role="header">
+<h1>registration</h1>
+</div>
+<div data-role="content">
+<form>
+user:<input type="text" name="user" placeholder="enter name">
+email:<input type="text" name="email" placeholder="enter email">
+pass:<input type="password" name="pass" placeholder="enter password">
+</form>
+<a href="#one" data-role="button">Submit</a>
+</div>
+<div data-role="footer">
+<h3>End</h3>
+</div>
+</div>
+
+</body>
+</html>
